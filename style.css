@@ -61,7 +61,7 @@
 
 .wrapperright a:hover::before{
     display: flex;
-    width: 90%;
+    width: 80%;
 }
 
 .section{
@@ -267,7 +267,7 @@
     width: 60%;
     text-align: left;
 }
-.program ul{
+.uu{
     display: flex;
     justify-content: center;
     align-items: left;
@@ -289,13 +289,86 @@
     font-size: 20px;
 }
 
-.onboard{
-    text-align: left;
+.onboard p{
+    padding-top: 2rem;
 }
 
-.onboard ul {
+.ua ul{
+    padding-left: 12px;;
+}
+
+.self{
+    text-align: center;
+}
+
+.self h1{
+    padding: 2rem 0;
+}
+
+.self img{
+    width: 70%;
+}
+
+.journey{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.journey a{
+    text-decoration: none;
+    color:#fff;
+    background-color: rgb(12, 11, 11);
+    padding: 1rem 1rem;
+    border-radius: 20px;    
+}
+
+.journey a:hover{
+    background-color: #e29ea2;
+}
+
+#connect{
+    background-color: #e29ea2;
+}
+
+.social{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
     display: flex;
+    justify-content: space-around;
 }
 
+.hire a{
+    text-decoration: none;
+    color: rgb(8, 3, 3);
+    padding: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+}
 
+.hire ul li{
+    list-style: none;
+}
 
+.fees a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.fees a i{
+    padding-top: 2rem;
+}
+
+.contact a{
+    text-decoration: none;
+    color:  rgb(8, 3, 3);
+}
+
+.foot{
+    background-color: #000;
+    color: #fff;
+    padding-left: 4rem;
+}
